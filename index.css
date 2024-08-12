@@ -1,0 +1,9 @@
+/* Basic Styling */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}

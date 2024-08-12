@@ -1,0 +1,55 @@
+/* Signup Page Styles (similar to login.css) */
+.auth-section {
+  width: 350px; /* Adjusted width */
+  margin: 150px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+  background-color: #fff; /* White background */
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+h2 {
+  color: #333; /* Darker gray heading */
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}

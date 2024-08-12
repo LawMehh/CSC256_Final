@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Notes</title>
+  <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </aside>
+    <main class="content">
+      <h1>My Notes</h1>
+
+      <div class="library-nav">
+        <button id="show-all-notes">All Notes</button>
+        <button id="show-work-notes">Work Notes</button>
+        <button id="show-personal-notes">Personal Notes</button>
+
+        <div class="library-actions">
+          <button id="delete-work-library">Delete Work Library</button>
+          <button id="delete-personal-library">Delete Personal Library</button>
+        </div>
+      </div>
+
+      <div id="note-list">
+        </div>
+
+      <div class="new-note">
+        <textarea id="new-note" placeholder="Enter your note..."></textarea>
+        <select id="note-category">
+          <option value="all">All</option>
+          <option value="work">Work</option>
+          <option value="personal">Personal</option>
+        </select>
+        <button id="add-note">Add Note</button>
+      </div>
+      
+    </main>
+  </div>
+  <script src="notes.js"></script>
+</body>
+</html>

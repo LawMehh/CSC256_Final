@@ -1,0 +1,85 @@
+/* Basic Styling */
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #f0f0f0;
+  width: 200px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar a:hover {
+  background-color: #ddd;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Note Page Styling */
+.library-nav {
+  margin-bottom: 20px;
+}
+
+.library-actions {
+  margin-top: 10px;
+}
+
+.new-note {
+  margin-top: 20px;
+}
+
+#note-list {
+  list-style: none;
+  padding: 0;
+}
+
+#note-list li {
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-library {
+  margin-top: 20px;
+}
+
+.add-library input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-library button {
+
+  margin-left: 10px;
+}
+
